@@ -27,13 +27,13 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" ambiguous="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Az5-tb-QDy">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Az5-tb-QDy">
                                         <rect key="frame" x="60.5" y="0.0" width="33.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="251" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGk-pp-ECX">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGk-pp-ECX">
                                         <rect key="frame" x="109" y="0.0" width="46" height="30"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="systemOrangeColor"/>
                                         <state key="normal" title="Button">
@@ -52,10 +52,10 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="weather-windy" translatesAutoresizingMaskIntoConstraints="NO" id="EEa-OJ-W2b">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weather-windy" translatesAutoresizingMaskIntoConstraints="NO" id="EEa-OJ-W2b">
                                         <rect key="frame" x="6.5" y="43.5" width="120" height="120"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Image caption goes here." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXS-GS-5DP">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image caption goes here." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXS-GS-5DP">
                                         <rect key="frame" x="0.0" y="175.5" width="133" height="13.5"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
                                         <nil key="textColor"/>
@@ -85,10 +85,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z6q-T8-H3n">
-                                <rect key="frame" x="96" y="370" width="222.5" height="166"/>
+                                <rect key="frame" x="20" y="370" width="374" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuS-np-sCB">
-                                        <rect key="frame" x="0.0" y="0.0" width="222.5" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="OgH-da-2zi"/>
                                         </constraints>
@@ -99,18 +99,18 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJr-UZ-91d">
-                                        <rect key="frame" x="0.0" y="58" width="222.5" height="50"/>
+                                        <rect key="frame" x="0.0" y="58" width="374" height="50"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                         <state key="normal" title="Privacy Policy" backgroundImage="button">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                     </button>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="7jI-yS-wjd">
-                                        <rect key="frame" x="0.0" y="116" width="222.5" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="7jI-yS-wjd">
+                                        <rect key="frame" x="0.0" y="116" width="374" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5FC-pK-9qn">
-                                                <rect key="frame" x="0.0" y="0.0" width="133" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="181" height="50"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                                 <state key="normal" title="Treasure Map" backgroundImage="button">
@@ -118,7 +118,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEQ-0h-5DS">
-                                                <rect key="frame" x="145" y="0.0" width="77.5" height="50"/>
+                                                <rect key="frame" x="193" y="0.0" width="181" height="50"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                                 <state key="normal" title="FAQS" backgroundImage="button">
@@ -146,7 +146,8 @@
                             <constraint firstItem="UWn-Om-qut" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8Bs-Bo-ZBe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UWn-Om-qut" secondAttribute="trailing" id="D8y-KR-FtT"/>
                             <constraint firstItem="UWn-Om-qut" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fL6-u3-h7U"/>
-                            <constraint firstItem="Z6q-T8-H3n" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gA1-eR-C89"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z6q-T8-H3n" secondAttribute="trailing" id="g0n-Mi-teD"/>
+                            <constraint firstItem="Z6q-T8-H3n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hv7-WT-quW"/>
                             <constraint firstItem="Z6q-T8-H3n" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="pOQ-kw-1OB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
